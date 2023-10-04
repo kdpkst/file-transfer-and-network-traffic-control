@@ -43,8 +43,6 @@ The figure and table below clarify the message format:
 
 > **Note**: The operations related to data (e.g., SAVE, DELETE, and GET for data) are not relevant to this project though it is well-defined in the protocol, as the primary objective is to implement a client-side application for file uploading.
 
-The JSON part of the message includes several reserved fields:
-
 1. **type**: Specifies the type of data transfer, which can be **AUTH**, **DATA**, **FILE**.
 2. **operation**: Defines the operation to be performed, which can be **SAVE**, **DELETE**, **GET**, **UPLOAD**, **DOWNLOAD**, **BYE**, **LOGIN**.
    - For **authorization**, operation can be LOGIN.
