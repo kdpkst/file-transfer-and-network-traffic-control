@@ -25,7 +25,7 @@ The project aims to utilize Python socket programming to implement a client-side
 Simple Transfer and Exchange Protocol (STEP) is a stateless, client-server, TCP-based protocol for data and file exchange. It uses JSON as the data representation format for simplicity. STEP servers provide services for uploading, storing, downloading, and deleting data and files. Clients need authorization to access and manage both public and private data on the server. By default, the server listens on port 1379. The connection established between the client and server remains active until the client decides to close it. STEP clients initiate connections to send one or more continuous requests, while the STEP server accepts incoming connections and responds with corresponding responses. Both requests and responses in STEP messages share the same format, including fields such as "Operation", "Direction", and other specific fields.
 
 **STEP Message Format**:  
-STEP message consists of four different parts (the figure and table below both illustrate the message format):
+The figure and table below clarify the message format:
 
 <p align="center">
   <img src="./file_transfer/images/STEP_message_format.svg" alt="STEP Message Format" width="500" />
