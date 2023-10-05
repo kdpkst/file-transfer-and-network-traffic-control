@@ -6,14 +6,14 @@
     - [Requirements](#requirements)
     - [Usage](#usage)
     - [Document](#document)
-4. [SDN Traffic Forwarding and Redistribution](#sdn-traffic-forwarding-and-redistribution)
+4. [SDN-based Network Traffic Control](#sdn-based-network-traffic-control)
     - [Requirements](#requirements)
     - [Document](#document)
 5. [Contributors](#contributors)
 
 ## Introduction
 
-The repository consists of two different projects: **File Transfer Application** and **SDN-based Network Traffic Forwarding and Redirection**. The repo houses the codes for both projects, each residing in its respective folder named **file_transfer** and **network_traffic_control**. 
+The repository consists of two different projects: **File Transfer Application** and **SDN-based Network Traffic Control**. The repo houses the codes for both projects, each residing in its respective folder named **file_transfer** and **network_traffic_control**. 
 
 ## File Transfer Application
 
@@ -90,7 +90,7 @@ The figure and table below clarify the message format:
 ### Document
 For more detailed info, please [click](./file_transfer/Report/Report-PartI.pdf) to read the report for this project.
 
-## SDN-based Network Traffic Forwarding and Redirection
+## SDN-based Network Traffic Control
 
 The SDN Traffic Forwarding and Redistribution project leverages Software-Defined Networking (SDN) principles to manage network traffic. This project focuses on utilizing Mininet to construct a basic SDN network topology and simulating traffic control by employing SDN flow entries.
 
