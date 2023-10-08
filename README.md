@@ -86,7 +86,8 @@ The figure and table below clarify the message format:
 - Python3
 
 ### Usage_p1
-...
+On the server side, run server.py `sudo python3 server.py --port port_to_listen_on`. Server will listen on port 1397 if port is not explicitly specified.  
+On the client side, run `sudo python3 client.py --server_ip your_server_ip --port server_port --id your_id --f filepath_to_upload` to upload your file.
 
 ### Document_p1
 For more detailed info, please [click](./file_transfer/Report/Report-PartI.pdf) to read the report for this project.
