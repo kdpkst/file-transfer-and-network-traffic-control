@@ -82,7 +82,7 @@ The figure and table below clarify the message format:
 11. **token**: A string obtained during the authorization process.
 
 ### Requirements
-- Python>=3.6
+- Python3
 
 ### Usage
 ...
@@ -97,7 +97,12 @@ The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful t
 <p align="center"><img src="./network_traffic_control/images/SDN_topo.svg" alt="SDN topo" height="305" width="635" /></p>
 
 ### Requirements
-...
+- Linux environment (Ubuntu)
+- Python3
+- pip3
+- Mininet
+- Ryu
+- xterm
 
 ### Document
 For more detailed info, please [click](./network_traffic_control/Report/Report_PartII.pdf) to read the report for this project.
