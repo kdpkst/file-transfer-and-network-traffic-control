@@ -8,6 +8,7 @@
     - [Document](#document)
 4. [SDN-based Network Traffic Control](#sdn-based-network-traffic-control)
     - [Requirements](#requirements)
+    - [Usage](#usage)
     - [Document](#document)
 5. [Contributors](#contributors)
 
@@ -98,11 +99,35 @@ The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful t
 
 ### Requirements
 - Linux environment (Ubuntu)
+- Python2
 - Python3
-- pip3
 - Mininet
 - Ryu
 - xterm
+
+### Usage 
+1. Construct the network topology by running the command in the terminal
+```
+ sudo python2 networkTopo.py
+```
+
+2. Five subterminals appear, then run the controller application in the terminal named Controller
+```
+ ryu-manager ryu_forward.py 
+```
+or 
+```
+ ryu-manager ryu_redirect.py 
+```
+
+3. Run server.py on the Server1 and Server2, then run client.py on Client node.
+```
+ python3 server.py
+```
+```
+ python3 client.py
+```
+4. Observe subterminals info.
 
 ### Document
 For more detailed info, please [click](./network_traffic_control/Report/Report_PartII.pdf) to read the report for this project.
