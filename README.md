@@ -92,7 +92,7 @@ For more detailed info, please [click](./file_transfer/Report/Report-PartI.pdf) 
 
 ## SDN-based Network Traffic Control
 
-The project utilizes Mininet, a powerful tool for emulating software-defined networks, to construct a simple SDN network topology and simulating both traffic forwarding and redirection by employing SDN flow entries, all within the Mininet-emulated environment. 
+The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful tool for emulating software-defined networks, to construct a simple SDN network topology and simulating both traffic forwarding and redirection by employing SDN flow entries, all within the Mininet-emulated environment. 
 
 ### Requirements
 ...
