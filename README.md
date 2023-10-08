@@ -92,7 +92,7 @@ For more detailed info, please [click](./file_transfer/Report/Report-PartI.pdf) 
 
 ## SDN-based Network Traffic Control
 
-The SDN Traffic Forwarding and Redistribution project leverages Software-Defined Networking (SDN) principles to manage network traffic. This project focuses on utilizing Mininet to construct a basic SDN network topology and simulating traffic control by employing SDN flow entries.
+The project utilizes Mininet, a powerful tool for emulating software-defined networks, to construct a simple SDN network topology and simulating both traffic forwarding and redirection by employing SDN flow entries, all within the Mininet-emulated environment. 
 
 ### Requirements
 ...
