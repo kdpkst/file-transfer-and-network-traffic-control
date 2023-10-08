@@ -1,3 +1,0 @@
-1. modify arguments in client.py. Orginally, they are --ip, --port... replace them with short form like -p, -ip.
-2. correct grammar mistake in server.py ("is not existing", "is existing"...)
-3. correct some strange sentences in server.py ("key" {key}-- should be key "{key}")
