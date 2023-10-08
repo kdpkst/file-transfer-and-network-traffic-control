@@ -7,9 +7,9 @@
     - [Usage](#usage_p1)
     - [Document](#document_p1)
 4. [SDN-based Network Traffic Control](#sdn-based-network-traffic-control)
-    - [Requirements](#requirements)
-    - [Usage](#usage)
-    - [Document](#document)
+    - [Requirements](#requirements_p2)
+    - [Usage](#usage_p2)
+    - [Document](#document_p2)
 5. [Contributors](#contributors)
 
 ## Introduction
