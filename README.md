@@ -99,12 +99,12 @@ The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful t
 <p align="center"><img src="./network_traffic_control/images/SDN_topo.svg" alt="SDN topo" height="305" width="635" /></p>
 
 ### Requirements_p2
-- Linux environment (Ubuntu)
+- Linux environment (Ubuntu 20.04)
 - Python2
 - Python3
-- Mininet
-- Ryu
-- xterm
+- Mininet (2.2.2)
+- Ryu (4.34)
+- Xterm (353)
 
 ### Usage_p2
 1. Construct the network topology by running the command in the terminal
