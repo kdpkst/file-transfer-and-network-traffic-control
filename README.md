@@ -19,7 +19,7 @@ The repository consists of two different projects: **File Transfer Application**
 ## File Transfer Application
 
 The project aims to utilize Python socket programming to implement a client-side application for file uploading, adhering to a custom application-layer protocol.    
-> **Note**: The protocol specification and the server-side application have been defined and provided by a university professor.
+> **Note**: The protocol and the server-side application was defined and implemented by XJTLU Dr. Fei Cheng.
 
 ### Protocol Specification
 
