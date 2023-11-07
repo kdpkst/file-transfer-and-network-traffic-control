@@ -29,7 +29,7 @@ STEP (Simple Transfer and Exchange Protocol) is a stateless, client-server, TCP-
 The figure and table below clarify the message format:
 
 <p align="center">
-  <img src="./file_transfer/images/STEP_message_format.svg" alt="STEP Message Format" width="500" />
+  <img src="./images/STEP_message_format.svg" alt="STEP Message Format" width="500" />
 </p>
 
 | Part                                                     | Length (Bytes) | Description                                                                                | 
@@ -96,7 +96,7 @@ For more detailed info, please [click](./file_transfer/Report/Report-PartI.pdf) 
 
 The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful tool for emulating SDN (Software Defined Network), to construct a simple SDN network topology (see the following figure) and simulate traffic control within the Mininet-emulated environment. The primary objective is to develop two different SDN controller applications using [Ryu](https://github.com/faucetsdn/ryu) framework to implement traffic forwarding and redirection, respectively. The controller application that implements traffic forwarding directly forwards network traffic from Client to Server 1, while the other one redirects the traffic to Server 2 without the awareness of Client.
 
-<p align="center"><img src="./network_traffic_control/images/SDN_topo.svg" alt="SDN topo" height="305" width="635" /></p>
+<p align="center"><img src="./images/SDN_topo.svg" alt="SDN topo" height="305" width="635" /></p>
 
 ### Requirements_p2
 - Linux environment (Ubuntu 20.04)
