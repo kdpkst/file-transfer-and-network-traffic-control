@@ -86,19 +86,20 @@ The figure and table below clarify the message format:
 - Python3
 
 ### Usage_file_transfer
-Use the following two commands to clone this repo and change directory to the source code folder. Copy server.py on your server and clinet.py on your device.
+1. Clone the repository:
 ```
 git clone https://github.com/kdpkst/file-transfer-and-network-traffic-control.git
 ```
+2. Change to the source code directory:
 ```
 cd file-transfer-and-network-traffic-control/file_transfer/Codes/
 ```
-**On the server side** (Server will listen on port 1397 if port is not explicitly specified):    
+3. Copy server.py to your server. Copy client.py to your device.
+4. **On the server side** (Server will listen on port 1397 if port is not explicitly specified):    
 ```
 python3 server.py --port port_to_listen_on
 ```
-
-**On the client side**:   
+5. **On the client side**:   
 ```
 python3 client.py --server_ip your_server_ip --port server_port --id your_id --f filepath
 ```
