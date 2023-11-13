@@ -99,7 +99,7 @@ cd file-transfer-and-network-traffic-control/file_transfer/Codes/
 ```
 python3 server.py --port port_to_listen_on
 ```
-5. **On the client side**:   
+5. **On the client side** (Default id is 1202437 if it is not explicitly specified):   
 ```
 python3 client.py --server_ip your_server_ip --port server_port --id your_id --f filepath
 ```
