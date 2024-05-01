@@ -119,7 +119,7 @@ The project utilizes [Mininet](https://github.com/mininet/mininet), a powerful t
 - Python3
 - Mininet (2.2.2)
 - Ryu (4.34)
-- Xterm (353)
+- XTerm (353)
 
 ### Usage_SDN
 1. Construct the network topology by running the command in the terminal
